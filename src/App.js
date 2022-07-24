@@ -1,20 +1,15 @@
-import { Button, TextField } from "@mui/material";
+import React from "react";
+import TopBar from "./components/TopBar";
+
+import {Parallax, ParallaxLayer } from 
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-
-				<div>
-					<TextField id="outlined-basic" label="Outlined" variant="outlined" />
-				</div>
-
-				<div>
-					<Button variant="contained">Contained</Button>
-				</div>
-			</header>
+		<TopBar/>
 		</div>
 	);
 }
+
 
 export default App;
