@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "./components/TopBar";
 import background from "./images/background.jpg";
 import {Parallax, ParallaxLayer } from "@react-spring/parallax"
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
 	return (
@@ -25,7 +26,7 @@ function App() {
 			<h1 className="main-title">SBOTIFY</h1>
 		</ParallaxLayer>
 
-		<ParallaxLayer offset={0} speed={2} sticky={{start: 0, end: 1}}>
+		<ParallaxLayer offset={0} speed={2} sticky={{start: 1, end: 1.5}}>
 			<TopBar/>
 		</ParallaxLayer>
 
@@ -41,7 +42,7 @@ function App() {
       		color: 'white',
 			backgroundColor: '#22A377',
     	}}>
-    		CONTENT
+    		<ProjectCard/>
   		</ParallaxLayer>
 		</Parallax>
 
