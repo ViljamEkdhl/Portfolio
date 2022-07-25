@@ -1,19 +1,23 @@
-import { Card } from "@mui/material";
+import { Card, Typography } from "@mui/material";
+import GithubSvg from "./GithubSvg";
 
 function ProjectCard(props) {
     return ( 
-        <Card 
+        <Card
         style={{
+            position: 'absolute',
+            zIndex: '1',
             width: "fit-content",
             height: "fit-content",
             padding: "20px 20px 40px 20px",
+            alignContent: "center"
         }}
         >
-            <h2>PROJECT NAME</h2>
+            <Typography align="center">Sbotify</Typography>
 
-            <h3>**image**</h3>
+            <img src={require('../images/sbotify.png')} />
 
-            <p>Links</p>
+            <GithubSvg/>
         </Card>
      );
 }
