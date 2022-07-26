@@ -5,11 +5,10 @@ function ProjectCard(props) {
     return ( 
         <Card
         style={{
-            position: 'absolute',
-            zIndex: '1',
-            width: "fit-content",
-            height: "fit-content",
+            width: "20%",
+            height: "60%",
             padding: "20px 20px 40px 20px",
+            margin: "20px 20px 40px 20px",
             alignContent: "center"
         }}
         >
