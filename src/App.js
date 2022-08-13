@@ -28,7 +28,6 @@ function App() {
 
 				<h1 className="main-title">SBOTIFY</h1>
 				
-
 			</ParallaxLayer>
 
 
@@ -44,9 +43,16 @@ function App() {
 				backgroundColor: '#22A377',
 			}}>
 
-				<ProjectCard/>
-				<ProjectCard/>
-				<ProjectCard/>
+				<ProjectCard 
+				name="Sbotify" 
+				image={require("./images/sbotify.png")}
+				link="https://github.com/ViljamEkdhl/Sbotify"
+				/>
+				<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
 			</ParallaxLayer>
 
 		</Parallax>

@@ -4,7 +4,8 @@ import {ReactComponent as LinkedIn} from "../images/linked.svg"
 import {IconButton} from "@mui/material"
 import Stack from '@mui/material/Stack';
 
-function GithubSvg() {
+function NavBar(props) {
+    
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
         if (newWindow) newWindow.opener = null
@@ -12,7 +13,7 @@ function GithubSvg() {
 
     return ( 
         <Stack direction="row" spacing={1}>
-            <IconButton aria-label="github" size="large" onClick={() => openInNewTab("https://github.com/ViljamEkdhl")}>
+            <IconButton aria-label="github" size="large" onClick={() => openInNewTab(props.link)}>
                 <Logo/>
             </IconButton>
 
@@ -23,4 +24,4 @@ function GithubSvg() {
      );
 }
 
-export default GithubSvg;
+export default NavBar;
