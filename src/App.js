@@ -9,7 +9,7 @@ function App() {
 	
 	return (
 
-		<Parallax pages={2}>
+		<Parallax pages={3}>
 
 			<ParallaxLayer 
 				speed={2.5}
@@ -48,6 +48,53 @@ function App() {
 				image={require("./images/sbotify.png")}
 				link="https://github.com/ViljamEkdhl/Sbotify"
 				/>
+				<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
+								<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
+				
+				<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
+				
+			</ParallaxLayer>
+
+			<ParallaxLayer
+			offset={2}
+			speed={0.5}
+			style={{
+				display: 'inline-flex',
+				flexWrap: 'wrap',
+				justifyContent: 'center',
+				alignItems: 'center',
+				color: 'white',
+				backgroundColor: '#F0F8FF',
+			}}>
+
+				<ProjectCard 
+				name="Sbotify" 
+				image={require("./images/sbotify.png")}
+				link="https://github.com/ViljamEkdhl/Sbotify"
+				/>
+				<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
+								<ProjectCard 
+				name="WoE Password" 
+				image={require("./images/woe.png")}
+				link="https://github.com/EdvinAldi/WoE-Password"
+				/>
+				
 				<ProjectCard 
 				name="WoE Password" 
 				image={require("./images/woe.png")}
