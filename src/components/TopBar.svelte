@@ -1,9 +1,27 @@
 <script>
-	// logic goes here
+	import linkedIn from '../assets/linkedin.svg'
+	import gitHub from '../assets/gitHub.svg'
+
+	const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
+
 </script>
 
-<!-- markup (zero or more items) goes here -->
+<div class="nav">
+	<span>
+		<a href="https://www.linkedin.com/in/william-ekdahl-9110b622b/" target="_blank" rel="noreferrer">
+			<img src={linkedIn} alt="linkedIn Image"/>
+		</a>
+		<a href="https://github.com/ViljamEkdhl" target="_blank" rel="noreferrer">
+			<img src={gitHub} alt="GitHub Image"/>
+		</a>
+	</span>
+</div>
 
 <style>
-	/* styles go here */
+	.nav{
+		display: flex
+	}
 </style>
