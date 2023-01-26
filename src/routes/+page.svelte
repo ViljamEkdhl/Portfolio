@@ -1,5 +1,6 @@
 <script>
 	import TopBar from '../components/TopBar.svelte';
+    import Card from '../components/Card.svelte';
 
 </script>
 
@@ -7,5 +8,64 @@
     <TopBar/>
 </nav>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<h1>Williams Portfolio</h1>
+
+
+<section class="cards">
+    <Card>
+        <div class="content">
+            <div>
+                <h2>Sbotify</h2>
+                <p>A discord bot which is inspired by the "wrapped" feature from spotify</p>
+                <a href="https://github.com/ViljamEkdhl/Sbotify">Source Code</a>
+            </div>
+        </div>
+    </Card>
+    <Card>
+        <div class="content">
+            <div>
+                <h2>Password Generator</h2>
+                <p>A password generator that gives you a password from given parameters</p>
+                <a href="https://github.com/EdvinAldi/WoE-Password">Source Code</a>
+            </div>
+        </div>
+    </Card>
+    <Card>
+        <div class="content">
+            <div>
+                <h2>Ludum-Dare-51</h2>
+                <p>A small crypto-price guessing game</p>
+                <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51">Source Code</a>
+            </div>
+        </div>
+    </Card>
+</section>
+
+
+<style>
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 6rem;
+        top: 50%;
+        left: 15%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+</style>
