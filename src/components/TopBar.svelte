@@ -2,11 +2,6 @@
 	import linkedIn from '../assets/linkedin.svg'
 	import gitHub from '../assets/gitHub.svg'
 
-	const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-        if (newWindow) newWindow.opener = null
-    }
-
 </script>
 
 <div class="nav">

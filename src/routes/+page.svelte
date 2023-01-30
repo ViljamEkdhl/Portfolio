@@ -10,7 +10,7 @@
 </nav>
 
 
-<h1>Williams Portfolio</h1>
+<h1>William Lars Ekdahl</h1>
 
 
 <section class="cards">
