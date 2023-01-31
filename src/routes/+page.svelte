@@ -1,14 +1,7 @@
 <script>
-	import TopBar from '../components/TopBar.svelte';
     import Card from '../components/Card.svelte';
     import gitHub from '../assets/gitHub.svg'
-
 </script>
-
-<nav>
-    <TopBar/>
-</nav>
-
 
 <h1>William Lars Ekdahl</h1>
 
