@@ -39,6 +39,7 @@
             </div>
         </div>
     </Card>
+    
 </section>
 
 
@@ -61,10 +62,12 @@
     }
 
     .cards {
+        background-color: black;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 20px 20px 20px 20px;
+        margin: 20px 25% 20px 25%;
+        border-radius: 20px;
     }
 
     .content {
@@ -74,7 +77,6 @@
         margin: 20px;
         padding: 20px;
     }
-
 
     .test {
         display: flex;
