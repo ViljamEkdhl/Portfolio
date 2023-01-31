@@ -12,11 +12,13 @@
 		<a href="https://github.com/ViljamEkdhl" target="_blank" rel="noreferrer">
 			<img src={gitHub} alt="GitHub"/>
 		</a>
+		<a href="/">Home</a>
 	</span>
 </div>
 
 <style>
 	.nav{
-		display: flex
+		display: flex;
+		justify-content: center;
 	}
 </style>

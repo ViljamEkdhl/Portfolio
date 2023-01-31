@@ -12,8 +12,10 @@
             <div>
                 <h2>Sbotify</h2>
                 <p>A discord bot which is inspired by the "wrapped" feature from spotify</p>
-                <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
-                <a href="/woe-password">Read More!</a>
+                <span class="test">
+                    <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
+                    <a href="/woe-password">Read More!</a>
+                </span>
             </div>
         </div>
     </Card>
@@ -32,7 +34,6 @@
             <div>
                 <h2>Ludum-Dare-51</h2>
                 <p>A small crypto-price guessing game</p>
-                
                 <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
                 <a href="/ludum-dare-51">Read More!</a>
             </div>
@@ -53,6 +54,12 @@
         
     }
 
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+
     .cards {
         display: flex;
         flex-wrap: wrap;
@@ -66,5 +73,11 @@
         flex: 1;
         margin: 20px;
         padding: 20px;
+    }
+
+
+    .test {
+        display: flex;
+        font-size: large;
     }
 </style>

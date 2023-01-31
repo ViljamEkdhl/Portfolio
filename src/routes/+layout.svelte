@@ -3,7 +3,6 @@
 </script>
 
 <nav>
-    <a href="/">Home</a>
     <TopBar/>
 </nav>
 

@@ -8,10 +8,9 @@
 
 <style>
     .card {
-        background: aliceblue;
-        border-radius: 6px;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-        border: 2px solid black;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0px 4px 8px rgba(122, 184, 191, 1);
         margin: 20px 20px 20px 20px;
         width: 20rem;
         font-family: 'Poppins', sans-serif;
