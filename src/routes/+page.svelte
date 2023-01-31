@@ -19,7 +19,7 @@
             <div>
                 <h2>Sbotify</h2>
                 <p>A discord bot which is inspired by the "wrapped" feature from spotify</p>
-                <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub Image"/></a>
+                <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
             </div>
         </div>
     </Card>
@@ -28,7 +28,7 @@
             <div>
                 <h2>Password Generator</h2>
                 <p>A password generator that gives you a password from given parameters</p>
-                <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub Image"/></a>
+                <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
             </div>
         </div>
     </Card>
@@ -37,7 +37,8 @@
             <div>
                 <h2>Ludum-Dare-51</h2>
                 <p>A small crypto-price guessing game</p>
-                <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub Image"/></a>
+                
+                <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
             </div>
         </div>
     </Card>

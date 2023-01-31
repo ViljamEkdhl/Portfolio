@@ -7,9 +7,11 @@
 <div class="nav">
 	<span>
 		<a href="https://www.linkedin.com/in/william-ekdahl-9110b622b/" target="_blank" rel="noreferrer">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img src={linkedIn} alt="linkedIn Image"/>
 		</a>
 		<a href="https://github.com/ViljamEkdhl" target="_blank" rel="noreferrer">
+			<!-- svelte-ignore a11y-img-redundant-alt -->
 			<img src={gitHub} alt="GitHub Image"/>
 		</a>
 	</span>

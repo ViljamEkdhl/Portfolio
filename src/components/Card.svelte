@@ -14,6 +14,7 @@
         border: 2px solid black;
         margin: 20px 20px 20px 20px;
         width: 20rem;
+        font-family: 'Poppins', sans-serif;
     }
 
 </style>
