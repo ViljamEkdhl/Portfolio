@@ -66,7 +66,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 20px 25% 20px 25%;
+        margin: auto;
         border-radius: 20px;
     }
 
