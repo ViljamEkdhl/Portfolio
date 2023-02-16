@@ -14,7 +14,7 @@
                 <p>A discord bot which is inspired by the "wrapped" feature from spotify</p>
                 <span class="test">
                     <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
-                    <a href="/woe-password">Read More!</a>
+                    <a href="/sbotify">Read More!</a>
                 </span>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <h2>Password Generator</h2>
                 <p>A password generator that gives you a password from given parameters</p>
                 <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
-                <a href="/sbotify">Read More!</a>
+                <a href="/woe-password">Read More!</a>
             </div>
         </div>
     </Card>
