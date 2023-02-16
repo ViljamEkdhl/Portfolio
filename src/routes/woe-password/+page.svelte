@@ -21,7 +21,7 @@
         justify-content: center;
         margin: auto;
         border-radius: 30px;
-        box-shadow: 0px 5px 20px rgba(122, 184, 191, 1);
+        border-style:hidden;
 
     }
 
