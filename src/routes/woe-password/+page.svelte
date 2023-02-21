@@ -22,7 +22,6 @@
         margin: auto;
         border-radius: 30px;
         border-style:hidden;
-
     }
 
     .page{
