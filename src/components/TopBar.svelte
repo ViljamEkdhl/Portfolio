@@ -1,6 +1,7 @@
 <script>
 	import linkedIn from '../assets/linkedin.svg'
 	import gitHub from '../assets/gitHub.svg'
+	import home from '../assets/home.svg'
 
 </script>
 
@@ -12,7 +13,9 @@
 		<a href="https://github.com/ViljamEkdhl" target="_blank" rel="noreferrer">
 			<img src={gitHub} alt="GitHub"/>
 		</a>
-		<a href="/">Home</a>
+		<a href="/">
+			<img src={home} alt="Home">
+		</a>
 	</span>
 </div>
 
@@ -20,5 +23,12 @@
 	.nav{
 		display: flex;
 		justify-content: center;
+	}
+
+	a{
+		font-family: 'Poppins', sans-serif;
+		font-size: larger;
+		text-decoration: none;
+		color: black;
 	}
 </style>

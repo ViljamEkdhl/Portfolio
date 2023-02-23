@@ -26,6 +26,6 @@
 
     .page{
         margin-top: 4rem;
-        height: 80vh;
+        height: 85vh;
     }
 </style>

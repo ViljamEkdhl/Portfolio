@@ -15,7 +15,7 @@
             </div>
             <span class="mini-nav">
                 <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
-                <a href="/sbotify">Read More!</a>
+                <!-- a href="/sbotify">Read More!</a> Ta bort kommentaren om en individuell sida med info om sbotify önskas -->
             </span>
         </div>
     </Card>
@@ -27,7 +27,7 @@
             </div>
             <span class="mini-nav">
                 <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
-                <a href="/woe-password">Demo</a>
+                <a class="read-more" href="/woe-password">Demo</a>
             </span>
         </div>
     </Card>
@@ -39,10 +39,11 @@
             </div>
             <span class="mini-nav">
                 <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
-                <a href="/ludum-dare-51">Read More!</a>
+                <a class="read-more" href="/ludum-dare-51">Read More!</a>
             </span>
         </div>
     </Card>
+    
     
 </section>
 
@@ -56,13 +57,17 @@
         top: 50%;
         left: 15%;
         font-family: 'Poppins', sans-serif;
-        
     }
 
     h2 {
         display: flex;
         justify-content: center;
         margin: 0px;
+    }
+    
+    .read-more{
+        text-decoration: none;
+        padding-top: 5px;
     }
 
     .cards {
@@ -72,6 +77,7 @@
         justify-content: center;
         margin: auto;
         border-radius: 20px;
+        width: fit-content;
     }
 
     .content {
@@ -86,5 +92,6 @@
         display: flex;
         margin: auto;
         gap: 10px;
+        align-self: flex-end;
     }
 </style>

@@ -15,19 +15,21 @@
 </div>
 
 <section>
-    <img src={sbotifyProfile} alt="sbotify profile">
-</section>
-
-<section>
+    <h2>Exempel på output</h2>
     <img src={examplePrint} alt="Example sbotify print">
 </section>
 
 <style>
     section{
-        background-color: black;
         margin-bottom: 20px;
         border-style: none;
         border-radius: 0px 40px 40px 0px;
         height: 25rem;
+    }
+
+    p{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
     }
 </style>
