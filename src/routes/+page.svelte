@@ -6,6 +6,8 @@
 </script>
 
 <FrontPage/>
+
+<h1>Projects</h1>
 <section class="cards">
     <Card>
         <div class="content">
@@ -43,10 +45,22 @@
             </span>
         </div>
     </Card> 
+    
 </section>
 
 
 <style>
+        h1 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 6rem;
+        top: 50%;
+        left: 5%;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 10px;
+    }
+
     h2 {
         display: flex;
         justify-content: center;
@@ -66,6 +80,7 @@
         margin: auto;
         border-radius: 20px;
         width: fit-content;
+        margin-bottom: 70px;
     }
 
     .content {

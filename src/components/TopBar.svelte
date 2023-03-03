@@ -28,6 +28,7 @@
 		top: 0px;
 		width: 100%;
 		position:absolute;
+		z-index: 1;
 	}
 
 	a{
