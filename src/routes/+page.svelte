@@ -50,7 +50,7 @@
 
 
 <style>
-        h1 {
+    h1 {
         display: flex;
         justify-content: center;
         color: black;
@@ -80,7 +80,7 @@
         margin: auto;
         border-radius: 20px;
         width: fit-content;
-        margin-bottom: 70px;
+        margin-bottom: 35rem;
     }
 
     .content {

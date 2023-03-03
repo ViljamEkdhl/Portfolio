@@ -7,17 +7,18 @@
 
 <svelte:window bind:scrollY={y}/>
 
+<div>
 
-<div class="upper" style="transform: translate(0,{-y * 20 / (10- 1)}px)">
-    <img src={upper} alt="">
+    <div class="upper" style="transform: translate(0,{-y * 20 / (10- 1)}px)">
+        <img src={upper} alt="">
+    </div>
+    <h1 style="transform: translate(0,{-y * 10 / (10 + 8)}px)">William Lars Ekdahl</h1>
+    <div class="lower" style="transform: translate(0,{-y * 11 / (10- 1)}px)">
+        <img src={lower} alt="">
+    </div>
+
 </div>
 
-<div class="lower" style="transform: translate(0,{-y * 11 / (10- 1)}px)">
-    <img src={lower} alt="">
-</div>
-
-
-<h1>William Lars Ekdahl</h1>
 
 
 <style>
@@ -44,5 +45,6 @@
         font-family: 'Poppins', sans-serif;
         position: absolute;
         z-index: -2;
+        margin: auto;
     }
 </style>
