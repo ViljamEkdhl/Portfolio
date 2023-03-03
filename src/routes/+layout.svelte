@@ -2,8 +2,12 @@
     import TopBar from '../components/TopBar.svelte';
 </script>
 
-<nav>
-    <TopBar/>
-</nav>
+
+<TopBar/>
+
 
 <slot></slot>
+
+<style>
+    
+</style>

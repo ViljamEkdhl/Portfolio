@@ -1,11 +1,11 @@
 <script>
     import Card from '../components/Card.svelte';
     import gitHub from '../assets/gitHub.svg'
+    import BackgroundImage from '../components/FrontPage.svelte';
+    import FrontPage from '../components/FrontPage.svelte';
 </script>
 
-<h1>William Lars Ekdahl</h1>
-
-
+<FrontPage/>
 <section class="cards">
     <Card>
         <div class="content">
@@ -42,23 +42,11 @@
                 <a class="read-more" href="/ludum-dare-51">Read More!</a>
             </span>
         </div>
-    </Card>
-    
-    
+    </Card> 
 </section>
 
 
 <style>
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: black;
-        font-size: 6rem;
-        top: 50%;
-        left: 15%;
-        font-family: 'Poppins', sans-serif;
-    }
-
     h2 {
         display: flex;
         justify-content: center;

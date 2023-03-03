@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="nav">
+<nav>
 	<span>
 		<a href="https://www.linkedin.com/in/william-ekdahl-9110b622b/" target="_blank" rel="noreferrer">
 			<img src={linkedIn} alt="linkedIn"/>
@@ -17,12 +17,17 @@
 			<img src={home} alt="Home">
 		</a>
 	</span>
-</div>
+</nav>
+
+
 
 <style>
-	.nav{
+	nav{
 		display: flex;
 		justify-content: center;
+		top: 0px;
+		width: 100%;
+		position:absolute;
 	}
 
 	a{
