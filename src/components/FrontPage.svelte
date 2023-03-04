@@ -5,7 +5,7 @@
     let y;
     let opacity = 1;
 
-    $: opacity = y > 200 ? 0 : 1;
+    $: opacity = y > 100 ? 0 : 1;
 </script>
 
 <svelte:window bind:scrollY={y}/>

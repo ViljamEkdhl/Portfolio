@@ -80,7 +80,6 @@
         margin: auto;
         border-radius: 20px;
         width: fit-content;
-        margin-bottom: 35rem;
     }
 
     .content {
