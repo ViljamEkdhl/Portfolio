@@ -45,7 +45,6 @@
             </span>
         </div>
     </Card> 
-    
 </section>
 
 
@@ -78,8 +77,10 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        margin-bottom: 500px;
         border-radius: 20px;
         width: fit-content;
+        max-width: 1200px;
     }
 
     .content {

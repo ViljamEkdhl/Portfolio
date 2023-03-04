@@ -5,12 +5,12 @@
     let y;
     let opacity = 1;
 
-    $: opacity = y > 100 ? 0 : 1;
+    $: opacity = y > 150 ? 0 : 1;
 </script>
 
 <svelte:window bind:scrollY={y}/>
 
-<div>
+<div class="content">
 
     <div class="upper" style="transform: translate(0,{-y * 20 / (10- 1)}px)">
         <img src={upper} alt="">
