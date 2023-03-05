@@ -50,4 +50,5 @@
         z-index: -2;
         margin: auto;
     }
+
 </style>

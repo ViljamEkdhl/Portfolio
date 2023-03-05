@@ -1,7 +1,6 @@
 <script>
     import Card from '../components/Card.svelte';
     import gitHub from '../assets/gitHub.svg'
-    import BackgroundImage from '../components/FrontPage.svelte';
     import FrontPage from '../components/FrontPage.svelte';
 </script>
 
