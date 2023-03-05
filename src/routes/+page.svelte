@@ -77,7 +77,7 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
-        margin-bottom: 500px;
+        margin-bottom: 400px;
         border-radius: 20px;
         width: fit-content;
         max-width: 1200px;
