@@ -40,7 +40,7 @@
             </div>
             <span class="mini-nav">
                 <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
-                <a class="read-more" href="/ludum-dare-51">Read More!</a>
+                <!--<a class="read-more" href="/ludum-dare-51">Read More!</a>-->
             </span>
         </div>
     </Card> 
