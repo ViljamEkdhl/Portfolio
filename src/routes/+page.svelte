@@ -7,42 +7,40 @@
 <FrontPage/>
 
 <h1>Projects</h1>
+
 <section class="cards">
     <Card>
         <div class="content">
-            <div>
+            <div class="text">
                 <h2>Sbotify</h2>
-                <p>A discord bot which is inspired by the "wrapped" feature from spotify</p>
             </div>
-            <span class="mini-nav">
-                <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
-                <!-- a href="/sbotify">Read More!</a> Ta bort kommentaren om en individuell sida med info om sbotify önskas -->
-            </span>
         </div>
+        <span class="mini-nav">
+            <a href="https://github.com/ViljamEkdhl/Sbotify"><img src={gitHub} alt="GitHub"/></a>
+            <!-- a href="/sbotify">Read More!</a> Ta bort kommentaren om en individuell sida med info om sbotify önskas -->
+        </span>
     </Card>
     <Card>
         <div class="content">
-            <div>
+            <div class="text">
                 <h2>Password Generator</h2>
-                <p>A password generator that gives you a password from given parameters</p>
             </div>
-            <span class="mini-nav">
-                <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
-                <a class="read-more" href="/woe-password">Demo</a>
-            </span>
         </div>
+        <span class="mini-nav">
+            <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
+            <a class="read-more" href="/woe-password">Demo</a>
+        </span>
     </Card>
     <Card>
         <div class="content">
-            <div>
+            <div class="text">
                 <h2>Ludum-Dare-51</h2>
-                <p>A small crypto-price guessing game</p>
             </div>
-            <span class="mini-nav">
-                <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
-                <!--<a class="read-more" href="/ludum-dare-51">Read More!</a>-->
-            </span>
         </div>
+        <span class="mini-nav">
+            <a href="https://github.com/ViljamEkdhl/Ludum-Dare-51"><img src={gitHub} alt="GitHub"/></a>
+            <!--<a class="read-more" href="/ludum-dare-51">Read More!</a>-->
+        </span>
     </Card> 
 </section>
 
@@ -62,16 +60,19 @@
     h2 {
         display: flex;
         justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: large;
         margin: 0px;
+        margin-bottom: 20px;
     }
     
     .read-more{
         text-decoration: none;
         padding-top: 5px;
     }
-
+    
     .cards {
-        background-color: black;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -80,11 +81,13 @@
         border-radius: 20px;
         width: fit-content;
         max-width: 1200px;
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
     }
 
     .content {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         flex: 1;
         margin: 20px;
         padding: 20px;
@@ -92,8 +95,14 @@
 
     .mini-nav {
         display: flex;
-        margin: auto;
-        gap: 10px;
-        align-self: flex-end;
+        margin-left: 10px;
+        margin-bottom: 10px;
     }
+
+    .text {
+        width: 100%;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+
 </style>
