@@ -6,8 +6,6 @@
 
 <FrontPage/>
 
-<h1>Projects</h1>
-
 <section class="cards">
     <Card>
         <div class="content">
@@ -28,7 +26,7 @@
         </div>
         <span class="mini-nav">
             <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
-            <a class="read-more" href="/woe-password">Demo</a>
+            <button class="read-more" href="/woe-password">Demo</button>
         </span>
     </Card>
     <Card>
@@ -46,17 +44,6 @@
 
 
 <style>
-    h1 {
-        display: flex;
-        justify-content: center;
-        color: black;
-        font-size: 6rem;
-        top: 50%;
-        left: 5%;
-        font-family: 'Poppins', sans-serif;
-        margin-bottom: 10px;
-    }
-
     h2 {
         display: flex;
         justify-content: center;
@@ -65,6 +52,26 @@
         font-size: large;
         margin: 0px;
         margin-bottom: 20px;
+    }
+
+    button {
+                 
+        background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%);
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 10px;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: black;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        border-style: hidden;
+    }
+    button:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
     }
     
     .read-more{

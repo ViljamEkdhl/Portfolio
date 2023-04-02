@@ -49,6 +49,8 @@
         left: 5%;
         z-index: -2;
         margin: auto;
+        background: -webkit-linear-gradient( #434343 0%, black 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
-
 </style>
