@@ -55,10 +55,10 @@
     }
 
     button {
-                 
-        background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%);
+        background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%);
         text-align: center;
         text-transform: uppercase;
+        font-size: 15px;
         margin-left: 10px;
         transition: 0.5s;
         background-size: 200% auto;
@@ -73,7 +73,7 @@
         color: #fff;
         text-decoration: none;
     }
-    
+         
     .read-more{
         text-decoration: none;
         padding-top: 5px;
