@@ -49,20 +49,22 @@
         justify-content: center;
         font-family: 'Poppins', sans-serif;
         color: black;
+        font-weight: 600;
         font-size: large;
         margin: 0px;
         margin-bottom: 20px;
     }
 
     button {
-        background-image: linear-gradient(to right, #83a4d4 0%, #b6fbff  51%, #83a4d4  100%);
+        background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
         text-align: center;
         text-transform: uppercase;
         font-size: 15px;
+        font-weight: 650;
         margin-left: 10px;
         transition: 0.5s;
         background-size: 200% auto;
-        color: black;            
+        color:  black;            
         box-shadow: 0 0 20px #eee;
         border-radius: 10px;
         display: block;
@@ -70,7 +72,7 @@
     }
     button:hover {
         background-position: right center; /* change the direction of the change here */
-        color: #fff;
+        color: #83a4d4;
         text-decoration: none;
     }
          
