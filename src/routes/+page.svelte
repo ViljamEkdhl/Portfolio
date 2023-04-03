@@ -26,7 +26,7 @@
         </div>
         <span class="mini-nav">
             <a href="https://github.com/EdvinAldi/WoE-Password"><img src={gitHub} alt="GitHub"/></a>
-            <button class="read-more" href="/woe-password">Demo</button>
+            <a class="read-more-btn" href="../woe-password">Demo</a>
         </span>
     </Card>
     <Card>
@@ -55,7 +55,7 @@
         margin-bottom: 20px;
     }
 
-    button {
+    .read-more-btn {
         background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
         text-align: center;
         text-transform: uppercase;
@@ -69,16 +69,13 @@
         border-radius: 10px;
         display: block;
         border-style: hidden;
+        text-decoration: none;
+        padding-top: 5px;
     }
-    button:hover {
+    .read-more-btn:hover {
         background-position: right center; /* change the direction of the change here */
         color: #83a4d4;
         text-decoration: none;
-    }
-         
-    .read-more{
-        text-decoration: none;
-        padding-top: 5px;
     }
     
     .cards {

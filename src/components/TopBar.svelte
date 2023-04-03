@@ -25,10 +25,11 @@
 	nav{
 		display: flex;
 		justify-content: center;
+		position: fixed;
 		top: 0px;
 		width: 100%;
-		position:absolute;
 		z-index: 1;
+		background-color: white;
 	}
 
 	a{
@@ -37,4 +38,5 @@
 		text-decoration: none;
 		color: black;
 	}
+
 </style>
