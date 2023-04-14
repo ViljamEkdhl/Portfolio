@@ -1,6 +1,6 @@
 <script>
-    import lower from "../assets/lower.png"
-    import upper from "../assets/upper.png"
+    import lower from "../assets/lower.webp"
+    import upper from "../assets/upper.webp"
 
     let y;
     let opacity = 1;
