@@ -31,10 +31,12 @@
     }
     .lower{
         z-index: -1;
+        width: 100%;
     }
 
     .upper{
         position: fixed;
+        width: 100%;
         z-index: -4;
     }
 
