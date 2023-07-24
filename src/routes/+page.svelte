@@ -40,6 +40,17 @@
             <!--<a class="read-more" href="/ludum-dare-51">Read More!</a>-->
         </span>
     </Card> 
+       <Card>
+        <div class="content">
+            <div class="text">
+                <h2>AchievementPicker</h2>
+            </div>
+        </div>
+        <span class="mini-nav">
+            <a href="https://github.com/ViljamEkdhl/achievmentPicker"><img src={gitHub} alt="GitHub"/></a>
+            <a class="read-more-btn" href="../achievementPicker">Demo</a>
+        </span>
+    </Card>
 </section>
 
 
